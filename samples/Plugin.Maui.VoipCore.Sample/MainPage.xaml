@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Plugin.Maui.VoipCore.Sample.MainPage"
+             Title="VoipCore">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="12">
+            <Label Text="Plugin.Maui.VoipCore" FontSize="22" FontAttributes="Bold" />
+            <Label Text="Generic SIP/VoIP abstraction. This sample uses the loopback stack — no registrar required."
+                   TextColor="Gray" />
+
+            <Label x:Name="EngineLabel" Text="Engine: idle" FontAttributes="Bold" />
+
+            <Entry x:Name="UserEntry" Placeholder="SIP username" Text="alice" />
+            <Entry x:Name="DomainEntry" Placeholder="SIP domain" Text="sip.example.com" />
+            <Entry x:Name="PasswordEntry" Placeholder="Optional password" IsPassword="True" />
+
+            <HorizontalStackLayout Spacing="8">
+                <Button Text="Register" Clicked="OnRegisterClicked" />
+                <Button Text="Unregister" Clicked="OnUnregisterClicked" />
+            </HorizontalStackLayout>
+
+            <Entry x:Name="DestinationEntry" Placeholder="Destination (user@domain)" Text="bob@sip.example.com" />
+
+            <HorizontalStackLayout Spacing="8">
+                <Button Text="Call" Clicked="OnCallClicked" />
+                <Button Text="Simulate incoming" Clicked="OnSimulateIncomingClicked" />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="8">
+                <Button Text="Answer" Clicked="OnAnswerClicked" />
+                <Button Text="Reject" Clicked="OnRejectClicked" />
+                <Button Text="Hangup" Clicked="OnHangupClicked" BackgroundColor="#B00020" />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="8">
+                <Button Text="Mute" Clicked="OnMuteClicked" />
+                <Button Text="Hold" Clicked="OnHoldClicked" />
+                <Button Text="Speaker" Clicked="OnSpeakerClicked" />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="8">
+                <Button Text="1" Clicked="OnDtmfClicked" CommandParameter="1" />
+                <Button Text="2" Clicked="OnDtmfClicked" CommandParameter="2" />
+                <Button Text="3" Clicked="OnDtmfClicked" CommandParameter="3" />
+                <Button Text="*" Clicked="OnDtmfClicked" CommandParameter="*" />
+                <Button Text="#" Clicked="OnDtmfClicked" CommandParameter="#" />
+            </HorizontalStackLayout>
+
+            <Label x:Name="CallLabel" Text="No active call." />
+            <Label x:Name="StatusLabel" Text="Ready." FontSize="13" LineBreakMode="WordWrap" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
