@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Add the NuGet package link and badge to the README
+
 ## 1.0.1
 
 - Include the Buy Me a Coffee support section in the package README

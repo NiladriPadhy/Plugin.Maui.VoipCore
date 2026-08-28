@@ -1,5 +1,7 @@
 # Plugin.Maui.VoipCore
 
+[![NuGet](https://img.shields.io/nuget/v/Plugin.Maui.VoipCore.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Maui.VoipCore)
+
 Generic SIP/VoIP abstraction for **.NET MAUI** on **iOS** and **Android**.
 
 The package owns the session model (register, call, hold, mute, speaker, DTMF) and platform audio. Signaling and media come from a pluggable `ISipStack` — ship your own PJSIP/Linphone adapter, or use the built-in loopback stack for tests and UI work.
@@ -15,6 +17,8 @@ The package owns the session model (register, call, hold, mute, speaker, DTMF) a
 | **Loopback** | In-process stack with `SimulateIncoming` for samples and unit tests |
 
 ## Install
+
+Package: [https://www.nuget.org/packages/Plugin.Maui.VoipCore](https://www.nuget.org/packages/Plugin.Maui.VoipCore)
 
 ```bash
 dotnet add package Plugin.Maui.VoipCore
