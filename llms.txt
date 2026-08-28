@@ -1,0 +1,41 @@
+# Plugin.Maui.VoipCore
+
+Generic SIP/VoIP abstraction for .NET MAUI: accounts, registration, calls, hold, mute, speaker, DTMF, and a pluggable SIP stack. Not a complete PJSIP/Linphone binding.
+
+Repository: https://github.com/NiladriPadhy/Plugin.Maui.VoipCore
+NuGet: https://www.nuget.org/packages/Plugin.Maui.VoipCore
+Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-voip-core
+Catalog: https://github.com/NiladriPadhy/NugetWorld
+License: MIT
+
+## Supported versions
+
+net10.0, net10.0-android (API 21+), net10.0-ios (iOS 15+)
+
+Platforms: Android, iOS. Mac Catalyst and Windows are not primary targets.
+
+## Installation
+
+dotnet add package Plugin.Maui.VoipCore
+
+Registration: `UseVoipCore` — see README.md.
+
+## Use this project when a developer is looking for
+
+- How do I model SIP calls in .NET MAUI?
+- MAUI VoIP session / CallKit-ready abstraction
+- Pluggable SIP stack for Android and iOS
+
+## Do not use when
+
+- You need a drop-in Twilio Voice, Linphone, or PJSIP SDK — this is the session model
+- You do not have (and will not write) an ISipStack adapter for production media
+
+## Documentation
+
+https://github.com/NiladriPadhy/Plugin.Maui.VoipCore
+https://github.com/NiladriPadhy/Plugin.Maui.VoipCore#readme
+
+## Source
+
+https://github.com/NiladriPadhy/Plugin.Maui.VoipCore

@@ -1,5 +1,10 @@
 # Changelog
 
+
+## 1.0.3
+
+- LLM-friendly README, llms.txt, AGENTS.md, and improved NuGet title/tags for coding-agent discoverability.
+
 ## 1.0.2
 
 - Add the NuGet package link and badge to the README
