@@ -11,7 +11,7 @@
 		<Nullable>enable</Nullable>
 		<MauiXamlInflator>SourceGen</MauiXamlInflator>
 		<ApplicationTitle>VoipCore Sample</ApplicationTitle>
-		<ApplicationId>com.nugetworld.plugin.maui.voipcore.sample</ApplicationId>
+		<ApplicationId>com.mauiessentials.plugin.maui.voipcore.sample</ApplicationId>
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
 		<WindowsPackageType>None</WindowsPackageType>

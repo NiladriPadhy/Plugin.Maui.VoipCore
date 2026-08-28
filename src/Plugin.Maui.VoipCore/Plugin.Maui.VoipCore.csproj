@@ -18,9 +18,9 @@
     <PackageId>Plugin.Maui.VoipCore</PackageId>
     <Title>.NET MAUI VoipCore — SIP/VoIP session model</Title>
     <Description>Generic SIP/VoIP abstraction for .NET MAUI on iOS and Android: accounts, registration, calls, hold, mute, speaker, DTMF, and a pluggable SIP stack.</Description>
-    <PackageTags>dotnet-maui;maui;maui-plugin;maui-utilities;cross-platform;android;ios;nuget;nugetworld;voip;sip;call;telephony;pjsip;linphone;callkit;audio</PackageTags>
+    <PackageTags>dotnet-maui;maui;maui-plugin;maui-utilities;cross-platform;android;ios;nuget;mauiessentials;voip;sip;call;telephony;pjsip;linphone;callkit;audio</PackageTags>
     <Authors>Niladri</Authors>
-    <Company>NugetWorld</Company>
+    <Company>MauiEssentials</Company>
     <Copyright>Copyright © 2026 Niladri</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
