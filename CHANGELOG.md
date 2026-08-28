@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+- Rebrand package metadata and catalog references to MauiEssentials.
+
 
 ## 1.0.3
 

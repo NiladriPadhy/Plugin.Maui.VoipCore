@@ -27,8 +27,8 @@
     <PackageProjectUrl>https://github.com/NiladriPadhy/Plugin.Maui.VoipCore</PackageProjectUrl>
     <RepositoryUrl>https://github.com/NiladriPadhy/Plugin.Maui.VoipCore</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.3</Version>
-    <PackageReleaseNotes>LLM-friendly README, llms.txt, AGENTS.md, and improved NuGet title/tags for coding-agent discoverability.</PackageReleaseNotes>
+    <Version>1.0.4</Version>
+    <PackageReleaseNotes>Rebrand package metadata and catalog references to MauiEssentials.</PackageReleaseNotes>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
