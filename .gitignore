@@ -6,3 +6,4 @@ obj/
 *.suo
 *.nupkg
 *.snupkg
+.DS_Store
