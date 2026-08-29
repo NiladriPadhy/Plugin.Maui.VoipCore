@@ -67,6 +67,11 @@ sealed class VoipCall : IVoipCall
 
     public void ApplyState(CallState state, CallEndReason? endReason, string? message, DateTimeOffset now)
     {
+        if (IsTerminal && state is not (CallState.Disconnected or CallState.Failed))
+        {
+            return;
+        }
+
         State = state;
         if (state is CallState.Connected && ConnectedAt is null)
         {

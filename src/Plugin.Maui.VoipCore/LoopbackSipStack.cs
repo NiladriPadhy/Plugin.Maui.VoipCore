@@ -240,11 +240,21 @@ public sealed class LoopbackSipStack : ISipStack
                 await Task.Yield();
             }
 
+            if (!IsActive(callId))
+            {
+                return;
+            }
+
             _sink?.OnCallStateChanged(callId, CallState.Ringing);
 
             if (_options.AutoAnswerDelay > TimeSpan.Zero)
             {
                 await Task.Delay(_options.AutoAnswerDelay).ConfigureAwait(false);
+            }
+
+            if (!IsActive(callId))
+            {
+                return;
             }
 
             _sink?.OnCallStateChanged(callId, CallState.Connecting);
@@ -267,6 +277,14 @@ public sealed class LoopbackSipStack : ISipStack
         }
 
         throw new VoipCoreException(VoipCoreError.CallNotFound, $"Loopback has no call '{callId}'.");
+    }
+
+    bool IsActive(string callId)
+    {
+        lock (_sync)
+        {
+            return _calls.ContainsKey(callId);
+        }
     }
 
     void Remove(string callId)

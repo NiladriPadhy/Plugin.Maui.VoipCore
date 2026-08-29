@@ -27,8 +27,8 @@
     <PackageProjectUrl>https://github.com/NiladriPadhy/Plugin.Maui.VoipCore</PackageProjectUrl>
     <RepositoryUrl>https://github.com/NiladriPadhy/Plugin.Maui.VoipCore</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.4</Version>
-    <PackageReleaseNotes>Rebrand package metadata and catalog references to MauiEssentials.</PackageReleaseNotes>
+    <Version>1.0.5</Version>
+    <PackageReleaseNotes>Reliability fixes for races, dispose/lifecycle, and lock or session correctness.</PackageReleaseNotes>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
