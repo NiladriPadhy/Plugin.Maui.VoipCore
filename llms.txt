@@ -2,10 +2,10 @@
 
 Generic SIP/VoIP abstraction for .NET MAUI: accounts, registration, calls, hold, mute, speaker, DTMF, and a pluggable SIP stack. Not a complete PJSIP/Linphone binding.
 
-Repository: https://github.com/NiladriPadhy/Plugin.Maui.VoipCore
+Repository: https://github.com/nuvyntralabs/Plugin.Maui.VoipCore
 NuGet: https://www.nuget.org/packages/Plugin.Maui.VoipCore
 Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-voip-core
-Catalog: https://github.com/NiladriPadhy/MauiEssentials
+Catalog: https://github.com/nuvyntralabs/MauiEssentials
 License: MIT
 
 ## Supported versions
@@ -33,9 +33,9 @@ Registration: `UseVoipCore` — see README.md.
 
 ## Documentation
 
-https://github.com/NiladriPadhy/Plugin.Maui.VoipCore
-https://github.com/NiladriPadhy/Plugin.Maui.VoipCore#readme
+https://github.com/nuvyntralabs/Plugin.Maui.VoipCore
+https://github.com/nuvyntralabs/Plugin.Maui.VoipCore#readme
 
 ## Source
 
-https://github.com/NiladriPadhy/Plugin.Maui.VoipCore
+https://github.com/nuvyntralabs/Plugin.Maui.VoipCore
