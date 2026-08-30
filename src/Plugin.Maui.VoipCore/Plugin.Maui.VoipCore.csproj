@@ -24,11 +24,11 @@
     <Copyright>Copyright © 2026 Niladri</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageProjectUrl>https://github.com/nuvyntralabs/Plugin.Maui.VoipCore</PackageProjectUrl>
+    <PackageProjectUrl>https://nuvyntralabs.github.io/packages/plugin-maui-voip-core/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/nuvyntralabs/Plugin.Maui.VoipCore</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.6</Version>
-    <PackageReleaseNotes>Repository moved to nuvyntralabs. Package project and repository URLs updated.</PackageReleaseNotes>
+    <Version>1.0.7</Version>
+    <PackageReleaseNotes>Point PackageProjectUrl at the Nuvyntra Labs package page.</PackageReleaseNotes>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
